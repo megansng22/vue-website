@@ -1,7 +1,6 @@
 <template>
     <div class="contactme">
         <!-- list of components -->
-         <NavBar />
         <body>
             <div class="content">
                 <Email />

@@ -1,11 +1,9 @@
 <template>
-    <div class="workexamples">
+    <div class="homepage">
         <!-- list of components -->
         <body>
             <div class="content">
-                <TechTeam />
-                <LKY />
-                <YouServe />
+                <InitialCard />
                 <div class="content-inside"></div>
             </div>
         </body>
@@ -14,17 +12,11 @@
 </template>
 
 <script>
-import TechTeam from "@/components/TechTeam.vue";
-import LKY from "@/components/LKY.vue";
-import YouServe from "@/components/YouServe.vue";
-
-
+import InitialCard from "@/components/InitialCard.vue";
 export default {
   name: "home",
   components: {
-    TechTeam,
-    LKY,
-    YouServe
+    InitialCard,
   },
 };
 </script>

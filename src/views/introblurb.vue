@@ -1,7 +1,6 @@
 <template>
     <div class="introductoryblurb">
         <!-- list of components -->
-         <NavBar />
         <body>
             <div class="content">
                 <IntroductoryBlurb />
